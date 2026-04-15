@@ -21,28 +21,27 @@ const Home = () => {
     <div className="min-h-screen bg-white">
 
       {/*navbar*/}
-     <div className='flex justify-between'>
+   <div className='flex justify-between'>
 
-        <div className="flex items-center gap-2 mb-12 p-5">
-          <div className="w-8 h-8 bg-emerald-500 rounded-xl flex items-center justify-center">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
-              <rect x="2" y="5" width="12" height="10" rx="2" fill="white" />
-              <path d="M14 8.5L18 6v8l-4-2.5V8.5z" fill="white" />
-            </svg>
-          </div>
-          <span className="text-xl font-semibold  text-gray-900 tracking-tight">
-            Nexus<span className="text-emerald-500">Meet</span>
-          </span>
-        </div> 
+  <div className="flex items-center gap-2 mb-12 p-5">
+    <div className="w-8 h-8 bg-emerald-500 rounded-xl flex items-center justify-center">
+      <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+        <rect x="2" y="5" width="12" height="10" rx="2" fill="white" />
+        <path d="M14 8.5L18 6v8l-4-2.5V8.5z" fill="white" />
+      </svg>
+    </div>
+    <span className="text-xl font-semibold text-gray-900 tracking-tight">
+      Nexus<span className="text-emerald-500">Meet</span>
+    </span>
+  </div>
 
-        <div>
-            <button className='p-5'>  
-            <Login/>
-            </button>
-  
-        </div>
-     </div>
-   
+  <div className="flex items-baseline p-4 mx-0">
+    <button className="flex items-center gap-2 text-xs bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-semibold px-5 py-2.5 rounded-xl shadow-md hover:shadow-emerald-300 transition-all duration-300">
+      log in 
+    </button>
+  </div>
+
+</div>
 
       {/* ── Hero ── */}
       <div className="flex flex-col items-center justify-center px-4 pt-12 pb-16 text-center">
