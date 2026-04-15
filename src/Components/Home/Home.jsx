@@ -30,17 +30,16 @@ const Home = () => {
               <path d="M14 8.5L18 6v8l-4-2.5V8.5z" fill="white" />
             </svg>
           </div>
-          <span className="text-xl font-semibold text-gray-900 tracking-tight">
+          <span className="text-xl font-semibold  text-gray-900 tracking-tight">
             Nexus<span className="text-emerald-500">Meet</span>
           </span>
         </div> 
 
         <div>
-            <button className='p-5'>
-             
+            <button className='p-5'>  
             <Login/>
             </button>
-            
+  
         </div>
      </div>
    
@@ -112,7 +111,7 @@ const Home = () => {
 
       {/* ── Footer ── */}
       <footer className="text-center py-8 text-xs text-gray-400 border-t border-gray-100">
-        &copy; 2026 NexusMeet &nbsp;·&nbsp; Privacy &nbsp;·&nbsp; Terms &nbsp;·&nbsp; Support
+        &copy; 2026 All rights reserved by NexusMeet 
       </footer>
 
     </div>
